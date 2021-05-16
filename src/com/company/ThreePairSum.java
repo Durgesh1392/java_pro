@@ -33,6 +33,7 @@ public class ThreePairSum {
         Set <Integer> hs = new HashSet<Integer>();
         for(int i=0; i<=arr.length-2; i++)
         {
+            int sum2 = sum - arr[i];
             for(int j=i+1; j<=arr.length-1; j++)
             {
                 if(!hs.isEmpty() && hs.contains(sum - (arr[i]+arr[j])))
