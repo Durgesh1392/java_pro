@@ -14,7 +14,7 @@ public class SubArraySum {
                 }
                 if(asum == sum)
                 {
-                    System.out.println(j+1+","+ (k+1));
+                    System.out.println((j+1)+","+ (k+1));
                     return;
                 }
 

@@ -30,7 +30,7 @@ public class SegregatedZeroOneTwo {
         }
         for(int m=0;m<arr.length;m++)
         {
-            System.out.println(arr[m]);
+            System.out.print(arr[m]);
         }
     }
     public static void main(String[] args)
