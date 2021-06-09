@@ -4,14 +4,15 @@ public class ReverseString {
     private static void reverse(String str)
     {
         String rev = "";
-        for(int i=str.length()-1;i>=0;i--)
+        String[] arr =str.split(" ");
+        for(int i=arr.length-1;i>=0;i--)
         {
-            rev = rev + str.charAt(i);
+            System.out.print(arr[i] +" ");
         }
-        System.out.println(rev);
+
     }
     public static void main(String[] args) {
-        String str = "Discovery";
+        String str = "Discovery abc";
         reverse(str);
     }
 }
