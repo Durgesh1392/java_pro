@@ -6,8 +6,10 @@ import java.util.Set;
 public class ThreePairSum {
 
     public static void main(String[] args) {
-        int[] arr = { 1, 3, 5, 4, 13, 7};
-        int sum = 17;
+        //int[] arr = { 1, 3, 5, 4, 13, 7};
+        int[] arr = {-1, -4, -1, 0, 1, 2};
+        int sum =0;
+        //int sum = 17;
         testthreepairsum(arr, sum);
     }
     // normal bruteforce appraoch
